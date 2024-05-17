@@ -38,5 +38,5 @@ await writeJSON('statistics.json', statistics);
 console.log("Appended today's record to statistics.json");
 
 // Step 6. Delete the original file
-await removeFile('statistics-response.json');
+await removeFile(filename);
 console.log('Deleted the original statistics-response.json file');
