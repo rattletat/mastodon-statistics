@@ -25,5 +25,5 @@ jobs:
         uses: githubocto/flat@mr/node16
         with:
           http_url: https://api.joinmastodon.org/statistics
-          downloaded_filename: statistics.json
+          downloaded_filename: statistics-response.json
           postprocess: postprocess.js
